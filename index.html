@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Words</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet" />
+    <link rel="icon" href="icons/logo.png" />
+  </head>
+  <body>
+    <div class="lobby">
+      <section class="lobby__content">
+        <img src="img/OIG.jpeg" alt="Fondo temático Star Wars" class="lobby__img" />
+  
+        <a href="index-game.html?lang=es" class="lobby__btn">
+          <span>Jugar</span>
+        </a>
+  
+        <p class="lobby__text">¡Que disfrutes del juego y que la Fuerza te acompañe!</p>
+      </section>
+      
+      <button class="btn-instructions" id="openInstructions">¿Cómo jugar?</button>
+      
+      <div id="instructionsModal" class="modal">
+        <div class="modal-content animate">
+          <button class="close-button" id="closeInstructions">✖</button>
+          <div class="container-modal">
+            <h1 class="container__title">¿Cómo se juega?</h1>
+            <div class="instructions-text">
+    <p>Bienvenido a Star Words, un juego galáctico de ahorcado inspirado en el universo de Star Wars.</p>
+    <h2>🎯 Objetivo:</h2>
+    <p>Adivina la palabra secreta antes de que se agoten tus 3 vidas.</p>
+    <h2>🕹️ Cómo jugar:</h2>
+    <ul>
+      <li>Haz clic en las letras del alfabeto para adivinar.</li><li>Cada error te hace perder una vida (representada por corazones).</li><li>Si adivinas todas las letras, pasas al siguiente nivel.</li>
+    </ul>
+  </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-flags">
+        <button class="button-flag button-spain" aria-label="Español">
+          <img src="icon-flags/spain.png" alt="Bandera de España" />
+        </button>
+        <button class="button-flag button-brazil" aria-label="Português">
+          <img src="icon-flags/brazil-.png" alt="Bandeira do Brasil" />
+        </button>
+        <button class="button-flag button-usa" aria-label="English">
+          <img src="icon-flags/united-states.png" alt="Flag of USA" />
+        </button>
+      </div>
+
+      <footer class="footer">
+        <p class="footer__text">Website created by <span class="green">Wilker Vivas</span></p>
+
+        <div class="footer__contact">
+          <p class="footer__contact-title">Contact:</p>
+          <ul class="footer__socials">
+            <li>
+              <a
+                href="https://github.com/wilker31vivas"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer__link"
+              >
+                <img
+                  src="./icons/github.svg"
+                  alt="GitHub"
+                  class="footer__icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/wilker-vivas-531965234/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer__link"
+              >
+                <img
+                  src="./icons/linkedin.svg"
+                  alt="LinkedIn"
+                  class="footer__icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      
+    </div>
+    <script src="js/script-language.js"></script>
+  </body>
+</html>

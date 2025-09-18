@@ -1,0 +1,77 @@
+{
+    "es": {
+      "startButton": "Jugar",
+      "welcomeMessage": "¡Que disfrutes del juego y que la Fuerza te acompañe!",
+      "lostLife": "¡Perdiste una vida!",
+      "winMessage": "¡Adivinaste!",
+      "nextWord": "Siguiente palabra",
+      "lostAllLife": "¡Perdiste tus 3 vidas!",
+      "gameOver": "¡Pasaste el juego!",
+      "replay": "Volver a jugar",
+      "continue": " Continuar",
+      "reset": "Reiniciar",
+      "wordsMade": "Palabras hechas",
+      "time": "Tu tiempo fue de:",
+      "instructionsTitle": "¿Cómo se juega?",
+      "intro": "Bienvenido a Star Words, un juego galáctico de ahorcado inspirado en el universo de Star Wars.",
+      "objectiveTitle": "🎯 Objetivo:",
+      "objectiveText": "Adivina la palabra secreta antes de que se agoten tus 3 vidas.",
+      "howToTitle": "🕹️ Cómo jugar:",
+      "howToList": [
+        "Haz clic en las letras del alfabeto para adivinar.",
+        "Cada error te hace perder una vida (representada por corazones).",
+        "Si adivinas todas las letras, pasas al siguiente nivel."
+      ]
+    },
+    "pt": {
+      "startButton": "Jogar",
+      "welcomeMessage": "Que você aproveite o jogo e que a Força esteja com você!",
+      "lostLife": "Você perdeu uma vida!",
+      "winMessage": "Você acertou!",
+      "nextWord": "Próxima palavra",
+      "backgroundSound": "Som de fundo:",
+      "instructionsTitle": "Como você joga?",
+      "lostAllLife": "Você perdeu suas 3 vidas!",
+      "gameOver": "Você venceu o jogo!",
+      "replay": "Repetição",
+      "continue": "Continuar",
+      "reset": "Reinício",
+      "wordsMade": "Palavras feitas",
+      "time": "Seu tempo foi:",
+      "intro": "Bem-vindo ao Star Words, um jogo galáctico da forca inspirado no universo de Star Wars.",
+      "objectiveTitle": "🎯 Objetivo:",
+      "objectiveText": "Adivinhe a palavra secreta antes de perder suas 3 vidas.",
+      "howToTitle": "🕹️ Como jogar:",
+      "howToList": [
+       "Clique nas letras do alfabeto para adivinhar.",
+       "Cada erro faz você perder uma vida (representada por corações).",
+       "Se você adivinhar todas as letras, passa para o próximo nível."
+      ]
+    },
+    "en": {
+      "startButton": "Start",
+      "welcomeMessage": "May you enjoy the game and may the Force be with you!",
+      "lostLife": "You lost a life!",
+      "winMessage": "You guessed it!",
+      "nextWord": "Next word",
+      "backgroundSound": "Background sound:",
+      "instructionsTitle": "How do you play?",
+      "lostAllLife": "You lost your 3 lives!",
+      "gameOver": "You beat the game!",
+      "replay": "Replay",
+      "continue": "Continue",
+      "reset": "Restart",
+      "wordsMade": "Words made",
+      "time": "Your time was:",
+      "intro": "Welcome to Star Words, a galactic hangman game inspired by the Star Wars universe.",
+      "objectiveTitle": "🎯 Objective:",
+      "objectiveText": "Guess the secret word before you lose all 3 lives.",
+      "howToTitle": "🕹️ How to play:",
+      "howToList": [
+        "Click on the alphabet letters to guess.",
+        "Each mistake costs you a life (represented by hearts).",
+        "If you guess all letters, you move to the next level."
+      ]
+    }
+  }
+  

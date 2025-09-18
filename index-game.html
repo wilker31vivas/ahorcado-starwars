@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Words</title>
+    <link rel="stylesheet" href="css/style-game.css">
+    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+    <link rel="icon" href="icon/logo.png">
+</head>
+<body>
+    <div class="container">
+        <div class="container-img">
+            <div class="container-img__img"></div>  
+        </div>
+        <div class="container-word">
+            <h3 class="word__title"></h3>
+        </div>
+        <div class="container-letters">
+            <button class="letter">A</button>
+            <button class="letter">B</button>
+            <button class="letter">C</button>
+            <button class="letter">D</button>
+            <button class="letter">E</button>
+            <button class="letter">F</button>
+            <button class="letter">G</button>
+            <button class="letter">H</button>
+            <button class="letter">i</button>
+            <button class="letter">g</button>
+            <button class="letter">J</button>
+            <button class="letter">K</button>
+            <button class="letter">L</button>
+            <button class="letter">M</button>
+            <button class="letter">N</button>
+            <button class="letter">o</button>
+            <button class="letter">P</button>
+            <button class="letter">Q</button>
+            <button class="letter">R</button>
+            <button class="letter">S</button>
+            <button class="letter">T</button>
+            <button class="letter">U</button>
+            <button class="letter">V</button>
+            <button class="letter">W</button>
+            <button class="letter">x</button>
+            <button class="letter">y</button>
+            <button class="letter">Z</button>
+        </div>
+        <div class="container-heart">
+            <img src="img/heart.png" alt="" class="heart__img">
+            <img src="img/heart.png" alt="" class="heart__img">
+            <img src="img/heart.png" alt="" class="heart__img">
+        </div>
+    </div>
+    <!-- The Modal Lose -->
+    <div id="lose" class="modal">
+        <div class="modal-content animate" action="/action_page.php">
+            <div class="container-modal">
+                <h1 class="container__title title-lose">¡Perdiste una vida!</h1>
+                <p class="numAdivinadas"></p>
+                <button class="container__button" id="continue">Continuar</button>
+                <button class="container__button" id="reset">Reiniciar</button>
+            </div>
+        </div>
+    </div>
+    <!-- The Modal Win -->
+   <div id="win" class="modal">
+        <div class="modal-content animate" action="/action_page.php">
+            <div class="container-modal">
+                <h1 class="container__title title-win">¡Adivinaste!</h1>
+                <h2 class="container__time container__time-win"></h2>
+                <button class="container__button" id="nextLevel">Siguiente palabra!</button>
+            </div>
+        </div>
+    </div>
+    <audio src="./audio/sound.mp3" id="audioEffect" type="audio/mp3"></audio>
+    <script src="js/script.js"></script>
+</body>
+</html> 
